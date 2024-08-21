@@ -1,1 +1,2 @@
-# Ecommerceproject
+# Ecommerceproject:
+This is a vibrant and user-friendly e-commerce website dedicated to displaying and selling handmade products. Whether you are looking for unique candles, handmade jewelry or custom home decor, our platform offers a wide variety of products with detailed descriptions and high-quality images

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    font-family: Arial, sans-serif;
+}
+
+.info-box {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info-box h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 16px;
+    color: #495057;
+}
+
+.info-box a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}

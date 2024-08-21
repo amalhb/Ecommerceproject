@@ -1,20 +1,41 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
     margin: 0;
     padding: 0;
-    background-color: #d4a464;
-    color: #333;
+    color: #444;
 }
+
+header {
+    background-color: #8B4513;
+    padding: 15px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #8B4513;
+}
+
 h1 {
     text-align: center;
-    padding: 20px;
-    background-color: #ff8c00; 
-    color: white;
-    margin: 0;
-    width: 500px;
-    margin: 20px auto;
-    padding: 10px;
-
+    margin: 20px 0;
+    color: #333;
 }
 
 #market {
@@ -24,44 +45,82 @@ h1 {
     padding: 20px;
 }
 
-
 .item {
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    margin: 15px;
     padding: 15px;
-    width: 250px;
     text-align: center;
-    transition: transform 0.2s;
-}
-
-.item:hover {
-    transform: scale(1.05);
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .item img {
     max-width: 100%;
     height: auto;
-    border-radius: 4px;
     margin-bottom: 10px;
+    border-radius: 8px;
 }
 
-#add-product-btn {
+button {
     display: block;
-    width: 150px;
-    margin: 20px auto;
-    padding: 10px;
-    font-size: 16px;
-    color: white;
-    background-color: #007bff; 
+    background-color: #A0522D;
+    color: #fff;
     border: none;
+    padding: 12px 20px;
+    margin: 20px auto;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
     transition: background-color 0.3s;
 }
 
-#add-product-btn:hover {
-    background-color: #0056b3; 
+button:hover {
+    background-color: #8B4513;
+}
+
+#product-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 450px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#product-form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #8B4513;
+}
+
+#product-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#product-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #A0522D;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
 }
